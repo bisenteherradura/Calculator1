@@ -22,256 +22,283 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Button1 = New Button()
-        Button2 = New Button()
-        Button3 = New Button()
-        Button4 = New Button()
-        Button5 = New Button()
-        Button6 = New Button()
-        Button7 = New Button()
-        Button8 = New Button()
-        Button9 = New Button()
-        Button10 = New Button()
-        Button11 = New Button()
-        Button12 = New Button()
-        Button13 = New Button()
-        Button14 = New Button()
-        Button15 = New Button()
-        Button16 = New Button()
-        Button17 = New Button()
-        Button18 = New Button()
-        Button19 = New Button()
-        Button20 = New Button()
+        equals = New Button()
+        point = New Button()
+        zero = New Button()
+        plusminus = New Button()
+        one = New Button()
+        two = New Button()
+        three = New Button()
+        add = New Button()
+        four = New Button()
+        five = New Button()
+        six = New Button()
+        minus = New Button()
+        seven = New Button()
+        eight = New Button()
+        nine = New Button()
+        multiply = New Button()
+        backspace = New Button()
+        ce = New Button()
+        c = New Button()
+        divide = New Button()
+        result = New TextBox()
+        input = New TextBox()
         SuspendLayout()
         ' 
-        ' Button1
+        ' equals
         ' 
-        Button1.Location = New Point(210, 364)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(87, 47)
-        Button1.TabIndex = 0
-        Button1.Text = "="
-        Button1.UseVisualStyleBackColor = True
+        equals.Location = New Point(210, 360)
+        equals.Name = "equals"
+        equals.Size = New Size(87, 47)
+        equals.TabIndex = 0
+        equals.Text = "="
+        equals.UseVisualStyleBackColor = True
         ' 
-        ' Button2
+        ' point
         ' 
-        Button2.Location = New Point(139, 364)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(65, 47)
-        Button2.TabIndex = 1
-        Button2.Text = "."
-        Button2.UseVisualStyleBackColor = True
+        point.Location = New Point(139, 360)
+        point.Name = "point"
+        point.Size = New Size(65, 47)
+        point.TabIndex = 1
+        point.Text = "."
+        point.UseVisualStyleBackColor = True
         ' 
-        ' Button3
+        ' zero
         ' 
-        Button3.Location = New Point(68, 364)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(65, 47)
-        Button3.TabIndex = 2
-        Button3.Text = "0"
-        Button3.UseVisualStyleBackColor = True
+        zero.Location = New Point(68, 360)
+        zero.Name = "zero"
+        zero.Size = New Size(65, 47)
+        zero.TabIndex = 2
+        zero.Text = "0"
+        zero.UseVisualStyleBackColor = True
         ' 
-        ' Button4
+        ' plusminus
         ' 
-        Button4.Location = New Point(6, 364)
-        Button4.Name = "Button4"
-        Button4.Size = New Size(56, 47)
-        Button4.TabIndex = 3
-        Button4.Text = "+/-"
-        Button4.UseVisualStyleBackColor = True
+        plusminus.Location = New Point(6, 360)
+        plusminus.Name = "plusminus"
+        plusminus.Size = New Size(56, 47)
+        plusminus.TabIndex = 3
+        plusminus.Text = "+/-"
+        plusminus.UseVisualStyleBackColor = True
         ' 
-        ' Button5
+        ' one
         ' 
-        Button5.Location = New Point(6, 320)
-        Button5.Name = "Button5"
-        Button5.Size = New Size(56, 47)
-        Button5.TabIndex = 7
-        Button5.Text = "1"
-        Button5.UseVisualStyleBackColor = True
+        one.Location = New Point(6, 307)
+        one.Name = "one"
+        one.Size = New Size(56, 47)
+        one.TabIndex = 7
+        one.Text = "1"
+        one.UseVisualStyleBackColor = True
         ' 
-        ' Button6
+        ' two
         ' 
-        Button6.Location = New Point(68, 320)
-        Button6.Name = "Button6"
-        Button6.Size = New Size(65, 47)
-        Button6.TabIndex = 6
-        Button6.Text = "2"
-        Button6.UseVisualStyleBackColor = True
+        two.Location = New Point(68, 307)
+        two.Name = "two"
+        two.Size = New Size(65, 47)
+        two.TabIndex = 6
+        two.Text = "2"
+        two.UseVisualStyleBackColor = True
         ' 
-        ' Button7
+        ' three
         ' 
-        Button7.Location = New Point(139, 320)
-        Button7.Name = "Button7"
-        Button7.Size = New Size(65, 47)
-        Button7.TabIndex = 5
-        Button7.Text = "3"
-        Button7.UseVisualStyleBackColor = True
+        three.Location = New Point(139, 307)
+        three.Name = "three"
+        three.Size = New Size(65, 47)
+        three.TabIndex = 5
+        three.Text = "3"
+        three.UseVisualStyleBackColor = True
         ' 
-        ' Button8
+        ' add
         ' 
-        Button8.Location = New Point(210, 320)
-        Button8.Name = "Button8"
-        Button8.Size = New Size(87, 47)
-        Button8.TabIndex = 4
-        Button8.Text = "+"
-        Button8.UseVisualStyleBackColor = True
+        add.Location = New Point(210, 307)
+        add.Name = "add"
+        add.Size = New Size(87, 47)
+        add.TabIndex = 4
+        add.Text = "+"
+        add.UseVisualStyleBackColor = True
         ' 
-        ' Button9
+        ' four
         ' 
-        Button9.Location = New Point(6, 277)
-        Button9.Name = "Button9"
-        Button9.Size = New Size(56, 47)
-        Button9.TabIndex = 11
-        Button9.Text = "4"
-        Button9.UseVisualStyleBackColor = True
+        four.Location = New Point(6, 254)
+        four.Name = "four"
+        four.Size = New Size(56, 47)
+        four.TabIndex = 11
+        four.Text = "4"
+        four.UseVisualStyleBackColor = True
         ' 
-        ' Button10
+        ' five
         ' 
-        Button10.Location = New Point(68, 277)
-        Button10.Name = "Button10"
-        Button10.Size = New Size(65, 47)
-        Button10.TabIndex = 10
-        Button10.Text = "5"
-        Button10.UseVisualStyleBackColor = True
+        five.Location = New Point(68, 254)
+        five.Name = "five"
+        five.Size = New Size(65, 47)
+        five.TabIndex = 10
+        five.Text = "5"
+        five.UseVisualStyleBackColor = True
         ' 
-        ' Button11
+        ' six
         ' 
-        Button11.Location = New Point(139, 277)
-        Button11.Name = "Button11"
-        Button11.Size = New Size(65, 47)
-        Button11.TabIndex = 9
-        Button11.Text = "6"
-        Button11.UseVisualStyleBackColor = True
+        six.Location = New Point(139, 254)
+        six.Name = "six"
+        six.Size = New Size(65, 47)
+        six.TabIndex = 9
+        six.Text = "6"
+        six.UseVisualStyleBackColor = True
         ' 
-        ' Button12
+        ' minus
         ' 
-        Button12.Location = New Point(210, 277)
-        Button12.Name = "Button12"
-        Button12.Size = New Size(87, 47)
-        Button12.TabIndex = 8
-        Button12.Text = "-"
-        Button12.UseVisualStyleBackColor = True
+        minus.Location = New Point(210, 254)
+        minus.Name = "minus"
+        minus.Size = New Size(87, 47)
+        minus.TabIndex = 8
+        minus.Text = "-"
+        minus.UseVisualStyleBackColor = True
         ' 
-        ' Button13
+        ' seven
         ' 
-        Button13.Location = New Point(6, 233)
-        Button13.Name = "Button13"
-        Button13.Size = New Size(56, 47)
-        Button13.TabIndex = 15
-        Button13.Text = "7"
-        Button13.UseVisualStyleBackColor = True
+        seven.Location = New Point(6, 201)
+        seven.Name = "seven"
+        seven.Size = New Size(56, 47)
+        seven.TabIndex = 15
+        seven.Text = "7"
+        seven.UseVisualStyleBackColor = True
         ' 
-        ' Button14
+        ' eight
         ' 
-        Button14.Location = New Point(68, 233)
-        Button14.Name = "Button14"
-        Button14.Size = New Size(65, 47)
-        Button14.TabIndex = 14
-        Button14.Text = "8"
-        Button14.UseVisualStyleBackColor = True
+        eight.Location = New Point(68, 201)
+        eight.Name = "eight"
+        eight.Size = New Size(65, 47)
+        eight.TabIndex = 14
+        eight.Text = "8"
+        eight.UseVisualStyleBackColor = True
         ' 
-        ' Button15
+        ' nine
         ' 
-        Button15.Location = New Point(139, 233)
-        Button15.Name = "Button15"
-        Button15.Size = New Size(65, 47)
-        Button15.TabIndex = 13
-        Button15.Text = "9"
-        Button15.UseVisualStyleBackColor = True
+        nine.Location = New Point(139, 201)
+        nine.Name = "nine"
+        nine.Size = New Size(65, 47)
+        nine.TabIndex = 13
+        nine.Text = "9"
+        nine.UseVisualStyleBackColor = True
         ' 
-        ' Button16
+        ' multiply
         ' 
-        Button16.Location = New Point(210, 233)
-        Button16.Name = "Button16"
-        Button16.Size = New Size(87, 47)
-        Button16.TabIndex = 12
-        Button16.Text = "×"
-        Button16.UseVisualStyleBackColor = True
+        multiply.Location = New Point(210, 201)
+        multiply.Name = "multiply"
+        multiply.Size = New Size(87, 47)
+        multiply.TabIndex = 12
+        multiply.Text = "×"
+        multiply.UseVisualStyleBackColor = True
         ' 
-        ' Button17
+        ' backspace
         ' 
-        Button17.Location = New Point(6, 193)
-        Button17.Name = "Button17"
-        Button17.Size = New Size(56, 47)
-        Button17.TabIndex = 19
-        Button17.Text = "⌫"
-        Button17.UseVisualStyleBackColor = True
+        backspace.Location = New Point(6, 148)
+        backspace.Name = "backspace"
+        backspace.Size = New Size(56, 47)
+        backspace.TabIndex = 19
+        backspace.Text = "⌫"
+        backspace.UseVisualStyleBackColor = True
         ' 
-        ' Button18
+        ' ce
         ' 
-        Button18.Location = New Point(68, 193)
-        Button18.Name = "Button18"
-        Button18.Size = New Size(65, 47)
-        Button18.TabIndex = 18
-        Button18.Text = "CE"
-        Button18.UseVisualStyleBackColor = True
+        ce.Location = New Point(68, 148)
+        ce.Name = "ce"
+        ce.Size = New Size(65, 47)
+        ce.TabIndex = 18
+        ce.Text = "CE"
+        ce.UseVisualStyleBackColor = True
         ' 
-        ' Button19
+        ' c
         ' 
-        Button19.Location = New Point(139, 193)
-        Button19.Name = "Button19"
-        Button19.Size = New Size(65, 47)
-        Button19.TabIndex = 17
-        Button19.Text = "C"
-        Button19.UseVisualStyleBackColor = True
+        c.Location = New Point(139, 148)
+        c.Name = "c"
+        c.Size = New Size(65, 47)
+        c.TabIndex = 17
+        c.Text = "C"
+        c.UseVisualStyleBackColor = True
         ' 
-        ' Button20
+        ' divide
         ' 
-        Button20.Location = New Point(210, 193)
-        Button20.Name = "Button20"
-        Button20.Size = New Size(87, 47)
-        Button20.TabIndex = 16
-        Button20.Text = "÷"
-        Button20.UseVisualStyleBackColor = True
+        divide.Location = New Point(210, 148)
+        divide.Name = "divide"
+        divide.Size = New Size(87, 47)
+        divide.TabIndex = 16
+        divide.Text = "÷"
+        divide.UseVisualStyleBackColor = True
+        ' 
+        ' result
+        ' 
+        result.BackColor = SystemColors.Control
+        result.BorderStyle = BorderStyle.None
+        result.Location = New Point(12, 76)
+        result.Multiline = True
+        result.Name = "result"
+        result.Size = New Size(283, 66)
+        result.TabIndex = 20
+        ' 
+        ' input
+        ' 
+        input.BackColor = SystemColors.Control
+        input.BorderStyle = BorderStyle.None
+        input.Location = New Point(139, 41)
+        input.Multiline = True
+        input.Name = "input"
+        input.Size = New Size(151, 40)
+        input.TabIndex = 21
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(299, 414)
-        Controls.Add(Button17)
-        Controls.Add(Button18)
-        Controls.Add(Button19)
-        Controls.Add(Button20)
-        Controls.Add(Button13)
-        Controls.Add(Button14)
-        Controls.Add(Button15)
-        Controls.Add(Button16)
-        Controls.Add(Button9)
-        Controls.Add(Button10)
-        Controls.Add(Button11)
-        Controls.Add(Button12)
-        Controls.Add(Button5)
-        Controls.Add(Button6)
-        Controls.Add(Button7)
-        Controls.Add(Button8)
-        Controls.Add(Button4)
-        Controls.Add(Button3)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
+        Controls.Add(input)
+        Controls.Add(result)
+        Controls.Add(backspace)
+        Controls.Add(ce)
+        Controls.Add(c)
+        Controls.Add(divide)
+        Controls.Add(seven)
+        Controls.Add(eight)
+        Controls.Add(nine)
+        Controls.Add(multiply)
+        Controls.Add(four)
+        Controls.Add(five)
+        Controls.Add(six)
+        Controls.Add(minus)
+        Controls.Add(one)
+        Controls.Add(two)
+        Controls.Add(three)
+        Controls.Add(add)
+        Controls.Add(plusminus)
+        Controls.Add(zero)
+        Controls.Add(point)
+        Controls.Add(equals)
         Name = "Form1"
-        Text = "Form1"
+        Text = "Calculator"
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Button17 As Button
-    Friend WithEvents Button18 As Button
-    Friend WithEvents Button19 As Button
-    Friend WithEvents Button20 As Button
+    Friend WithEvents equals As Button
+    Friend WithEvents point As Button
+    Friend WithEvents zero As Button
+    Friend WithEvents plusminus As Button
+    Friend WithEvents one As Button
+    Friend WithEvents two As Button
+    Friend WithEvents three As Button
+    Friend WithEvents add As Button
+    Friend WithEvents four As Button
+    Friend WithEvents five As Button
+    Friend WithEvents six As Button
+    Friend WithEvents minus As Button
+    Friend WithEvents seven As Button
+    Friend WithEvents eight As Button
+    Friend WithEvents nine As Button
+    Friend WithEvents multiply As Button
+    Friend WithEvents backspace As Button
+    Friend WithEvents ce As Button
+    Friend WithEvents c As Button
+    Friend WithEvents divide As Button
+    Friend WithEvents result As TextBox
+    Friend WithEvents input As TextBox
 End Class
