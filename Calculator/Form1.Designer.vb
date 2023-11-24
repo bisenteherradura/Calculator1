@@ -22,10 +22,11 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Form1))
         equals = New Button()
         point = New Button()
         zero = New Button()
-        plusminus = New Button()
+        negative = New Button()
         one = New Button()
         two = New Button()
         three = New Button()
@@ -43,7 +44,7 @@ Partial Class Form1
         c = New Button()
         divide = New Button()
         result = New TextBox()
-        input = New TextBox()
+        Label = New TextBox()
         SuspendLayout()
         ' 
         ' equals
@@ -73,14 +74,14 @@ Partial Class Form1
         zero.Text = "0"
         zero.UseVisualStyleBackColor = True
         ' 
-        ' plusminus
+        ' negative
         ' 
-        plusminus.Location = New Point(6, 360)
-        plusminus.Name = "plusminus"
-        plusminus.Size = New Size(56, 47)
-        plusminus.TabIndex = 3
-        plusminus.Text = "+/-"
-        plusminus.UseVisualStyleBackColor = True
+        negative.Location = New Point(6, 360)
+        negative.Name = "negative"
+        negative.Size = New Size(56, 47)
+        negative.TabIndex = 3
+        negative.Text = "+/-"
+        negative.UseVisualStyleBackColor = True
         ' 
         ' one
         ' 
@@ -230,28 +231,32 @@ Partial Class Form1
         ' 
         result.BackColor = SystemColors.Control
         result.BorderStyle = BorderStyle.None
+        result.Font = New Font("Segoe UI Emoji", 36F, FontStyle.Bold, GraphicsUnit.Point)
         result.Location = New Point(12, 76)
         result.Multiline = True
         result.Name = "result"
         result.Size = New Size(283, 66)
         result.TabIndex = 20
+        result.Text = "0"
+        result.TextAlign = HorizontalAlignment.Right
         ' 
-        ' input
+        ' Label
         ' 
-        input.BackColor = SystemColors.Control
-        input.BorderStyle = BorderStyle.None
-        input.Location = New Point(139, 41)
-        input.Multiline = True
-        input.Name = "input"
-        input.Size = New Size(151, 40)
-        input.TabIndex = 21
+        Label.BackColor = SystemColors.Control
+        Label.BorderStyle = BorderStyle.None
+        Label.Font = New Font("Segoe UI Emoji", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label.Location = New Point(139, 52)
+        Label.Name = "Label"
+        Label.Size = New Size(151, 18)
+        Label.TabIndex = 21
+        Label.TextAlign = HorizontalAlignment.Right
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(299, 414)
-        Controls.Add(input)
+        Controls.Add(Label)
         Controls.Add(result)
         Controls.Add(backspace)
         Controls.Add(ce)
@@ -269,10 +274,11 @@ Partial Class Form1
         Controls.Add(two)
         Controls.Add(three)
         Controls.Add(add)
-        Controls.Add(plusminus)
+        Controls.Add(negative)
         Controls.Add(zero)
         Controls.Add(point)
         Controls.Add(equals)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Form1"
         Text = "Calculator"
         ResumeLayout(False)
@@ -282,7 +288,7 @@ Partial Class Form1
     Friend WithEvents equals As Button
     Friend WithEvents point As Button
     Friend WithEvents zero As Button
-    Friend WithEvents plusminus As Button
+    Friend WithEvents negative As Button
     Friend WithEvents one As Button
     Friend WithEvents two As Button
     Friend WithEvents three As Button
@@ -300,5 +306,5 @@ Partial Class Form1
     Friend WithEvents c As Button
     Friend WithEvents divide As Button
     Friend WithEvents result As TextBox
-    Friend WithEvents input As TextBox
+    Friend WithEvents Label As TextBox
 End Class
