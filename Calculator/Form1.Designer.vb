@@ -22,267 +22,291 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Form1))
-        equals = New Button()
-        point = New Button()
-        zero = New Button()
-        negative = New Button()
-        one = New Button()
-        two = New Button()
-        three = New Button()
-        add = New Button()
-        four = New Button()
-        five = New Button()
-        six = New Button()
-        minus = New Button()
-        seven = New Button()
-        eight = New Button()
-        nine = New Button()
-        multiply = New Button()
-        backspace = New Button()
-        ce = New Button()
-        c = New Button()
-        divide = New Button()
-        result = New TextBox()
-        Label = New TextBox()
-        SuspendLayout()
-        ' 
-        ' equals
-        ' 
-        equals.Location = New Point(210, 360)
-        equals.Name = "equals"
-        equals.Size = New Size(87, 47)
-        equals.TabIndex = 0
-        equals.Text = "="
-        equals.UseVisualStyleBackColor = True
-        ' 
-        ' point
-        ' 
-        point.Location = New Point(139, 360)
-        point.Name = "point"
-        point.Size = New Size(65, 47)
-        point.TabIndex = 1
-        point.Text = "."
-        point.UseVisualStyleBackColor = True
-        ' 
-        ' zero
-        ' 
-        zero.Location = New Point(68, 360)
-        zero.Name = "zero"
-        zero.Size = New Size(65, 47)
-        zero.TabIndex = 2
-        zero.Text = "0"
-        zero.UseVisualStyleBackColor = True
-        ' 
-        ' negative
-        ' 
-        negative.Location = New Point(6, 360)
-        negative.Name = "negative"
-        negative.Size = New Size(56, 47)
-        negative.TabIndex = 3
-        negative.Text = "+/-"
-        negative.UseVisualStyleBackColor = True
-        ' 
-        ' one
-        ' 
-        one.Location = New Point(6, 307)
-        one.Name = "one"
-        one.Size = New Size(56, 47)
-        one.TabIndex = 7
-        one.Text = "1"
-        one.UseVisualStyleBackColor = True
-        ' 
-        ' two
-        ' 
-        two.Location = New Point(68, 307)
-        two.Name = "two"
-        two.Size = New Size(65, 47)
-        two.TabIndex = 6
-        two.Text = "2"
-        two.UseVisualStyleBackColor = True
-        ' 
-        ' three
-        ' 
-        three.Location = New Point(139, 307)
-        three.Name = "three"
-        three.Size = New Size(65, 47)
-        three.TabIndex = 5
-        three.Text = "3"
-        three.UseVisualStyleBackColor = True
-        ' 
-        ' add
-        ' 
-        add.Location = New Point(210, 307)
-        add.Name = "add"
-        add.Size = New Size(87, 47)
-        add.TabIndex = 4
-        add.Text = "+"
-        add.UseVisualStyleBackColor = True
-        ' 
-        ' four
-        ' 
-        four.Location = New Point(6, 254)
-        four.Name = "four"
-        four.Size = New Size(56, 47)
-        four.TabIndex = 11
-        four.Text = "4"
-        four.UseVisualStyleBackColor = True
-        ' 
-        ' five
-        ' 
-        five.Location = New Point(68, 254)
-        five.Name = "five"
-        five.Size = New Size(65, 47)
-        five.TabIndex = 10
-        five.Text = "5"
-        five.UseVisualStyleBackColor = True
-        ' 
-        ' six
-        ' 
-        six.Location = New Point(139, 254)
-        six.Name = "six"
-        six.Size = New Size(65, 47)
-        six.TabIndex = 9
-        six.Text = "6"
-        six.UseVisualStyleBackColor = True
-        ' 
-        ' minus
-        ' 
-        minus.Location = New Point(210, 254)
-        minus.Name = "minus"
-        minus.Size = New Size(87, 47)
-        minus.TabIndex = 8
-        minus.Text = "-"
-        minus.UseVisualStyleBackColor = True
-        ' 
-        ' seven
-        ' 
-        seven.Location = New Point(6, 201)
-        seven.Name = "seven"
-        seven.Size = New Size(56, 47)
-        seven.TabIndex = 15
-        seven.Text = "7"
-        seven.UseVisualStyleBackColor = True
-        ' 
-        ' eight
-        ' 
-        eight.Location = New Point(68, 201)
-        eight.Name = "eight"
-        eight.Size = New Size(65, 47)
-        eight.TabIndex = 14
-        eight.Text = "8"
-        eight.UseVisualStyleBackColor = True
-        ' 
-        ' nine
-        ' 
-        nine.Location = New Point(139, 201)
-        nine.Name = "nine"
-        nine.Size = New Size(65, 47)
-        nine.TabIndex = 13
-        nine.Text = "9"
-        nine.UseVisualStyleBackColor = True
-        ' 
-        ' multiply
-        ' 
-        multiply.Location = New Point(210, 201)
-        multiply.Name = "multiply"
-        multiply.Size = New Size(87, 47)
-        multiply.TabIndex = 12
-        multiply.Text = "×"
-        multiply.UseVisualStyleBackColor = True
-        ' 
-        ' backspace
-        ' 
-        backspace.Location = New Point(6, 148)
-        backspace.Name = "backspace"
-        backspace.Size = New Size(56, 47)
-        backspace.TabIndex = 19
-        backspace.Text = "⌫"
-        backspace.UseVisualStyleBackColor = True
-        ' 
-        ' ce
-        ' 
-        ce.Location = New Point(68, 148)
-        ce.Name = "ce"
-        ce.Size = New Size(65, 47)
-        ce.TabIndex = 18
-        ce.Text = "CE"
-        ce.UseVisualStyleBackColor = True
-        ' 
-        ' c
-        ' 
-        c.Location = New Point(139, 148)
-        c.Name = "c"
-        c.Size = New Size(65, 47)
-        c.TabIndex = 17
-        c.Text = "C"
-        c.UseVisualStyleBackColor = True
-        ' 
-        ' divide
-        ' 
-        divide.Location = New Point(210, 148)
-        divide.Name = "divide"
-        divide.Size = New Size(87, 47)
-        divide.TabIndex = 16
-        divide.Text = "÷"
-        divide.UseVisualStyleBackColor = True
-        ' 
-        ' result
-        ' 
-        result.BackColor = SystemColors.Control
-        result.BorderStyle = BorderStyle.None
-        result.Font = New Font("Segoe UI Emoji", 36F, FontStyle.Bold, GraphicsUnit.Point)
-        result.Location = New Point(12, 76)
-        result.Multiline = True
-        result.Name = "result"
-        result.Size = New Size(283, 66)
-        result.TabIndex = 20
-        result.Text = "0"
-        result.TextAlign = HorizontalAlignment.Right
-        ' 
-        ' Label
-        ' 
-        Label.BackColor = SystemColors.Control
-        Label.BorderStyle = BorderStyle.None
-        Label.Font = New Font("Segoe UI Emoji", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label.Location = New Point(139, 52)
-        Label.Name = "Label"
-        Label.Size = New Size(151, 18)
-        Label.TabIndex = 21
-        Label.TextAlign = HorizontalAlignment.Right
-        ' 
-        ' Form1
-        ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
-        AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(299, 414)
-        Controls.Add(Label)
-        Controls.Add(result)
-        Controls.Add(backspace)
-        Controls.Add(ce)
-        Controls.Add(c)
-        Controls.Add(divide)
-        Controls.Add(seven)
-        Controls.Add(eight)
-        Controls.Add(nine)
-        Controls.Add(multiply)
-        Controls.Add(four)
-        Controls.Add(five)
-        Controls.Add(six)
-        Controls.Add(minus)
-        Controls.Add(one)
-        Controls.Add(two)
-        Controls.Add(three)
-        Controls.Add(add)
-        Controls.Add(negative)
-        Controls.Add(zero)
-        Controls.Add(point)
-        Controls.Add(equals)
-        Icon = CType(resources.GetObject("$this.Icon"), Icon)
-        Name = "Form1"
-        Text = "Calculator"
-        ResumeLayout(False)
-        PerformLayout()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.equals = New System.Windows.Forms.Button()
+        Me.point = New System.Windows.Forms.Button()
+        Me.zero = New System.Windows.Forms.Button()
+        Me.negative = New System.Windows.Forms.Button()
+        Me.one = New System.Windows.Forms.Button()
+        Me.two = New System.Windows.Forms.Button()
+        Me.three = New System.Windows.Forms.Button()
+        Me.add = New System.Windows.Forms.Button()
+        Me.four = New System.Windows.Forms.Button()
+        Me.five = New System.Windows.Forms.Button()
+        Me.six = New System.Windows.Forms.Button()
+        Me.minus = New System.Windows.Forms.Button()
+        Me.seven = New System.Windows.Forms.Button()
+        Me.eight = New System.Windows.Forms.Button()
+        Me.nine = New System.Windows.Forms.Button()
+        Me.multiply = New System.Windows.Forms.Button()
+        Me.backspace = New System.Windows.Forms.Button()
+        Me.ce = New System.Windows.Forms.Button()
+        Me.c = New System.Windows.Forms.Button()
+        Me.divide = New System.Windows.Forms.Button()
+        Me.result = New System.Windows.Forms.TextBox()
+        Me.Label = New System.Windows.Forms.TextBox()
+        Me.SuspendLayout()
+        '
+        'equals
+        '
+        Me.equals.BackColor = System.Drawing.SystemColors.Highlight
+        Me.equals.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.equals.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.equals.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.equals.Location = New System.Drawing.Point(210, 360)
+        Me.equals.Name = "equals"
+        Me.equals.Size = New System.Drawing.Size(87, 47)
+        Me.equals.TabIndex = 0
+        Me.equals.Text = "="
+        Me.equals.UseVisualStyleBackColor = False
+        '
+        'point
+        '
+        Me.point.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.point.Location = New System.Drawing.Point(139, 360)
+        Me.point.Name = "point"
+        Me.point.Size = New System.Drawing.Size(65, 47)
+        Me.point.TabIndex = 1
+        Me.point.Text = "."
+        Me.point.UseVisualStyleBackColor = True
+        '
+        'zero
+        '
+        Me.zero.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.zero.Location = New System.Drawing.Point(68, 360)
+        Me.zero.Name = "zero"
+        Me.zero.Size = New System.Drawing.Size(65, 47)
+        Me.zero.TabIndex = 2
+        Me.zero.Text = "0"
+        Me.zero.UseVisualStyleBackColor = True
+        '
+        'negative
+        '
+        Me.negative.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.negative.Location = New System.Drawing.Point(6, 360)
+        Me.negative.Name = "negative"
+        Me.negative.Size = New System.Drawing.Size(56, 47)
+        Me.negative.TabIndex = 3
+        Me.negative.Text = "+/-"
+        Me.negative.UseVisualStyleBackColor = True
+        '
+        'one
+        '
+        Me.one.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.one.Location = New System.Drawing.Point(6, 307)
+        Me.one.Name = "one"
+        Me.one.Size = New System.Drawing.Size(56, 47)
+        Me.one.TabIndex = 7
+        Me.one.Text = "1"
+        Me.one.UseVisualStyleBackColor = True
+        '
+        'two
+        '
+        Me.two.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.two.Location = New System.Drawing.Point(68, 307)
+        Me.two.Name = "two"
+        Me.two.Size = New System.Drawing.Size(65, 47)
+        Me.two.TabIndex = 6
+        Me.two.Text = "2"
+        Me.two.UseVisualStyleBackColor = True
+        '
+        'three
+        '
+        Me.three.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.three.Location = New System.Drawing.Point(139, 307)
+        Me.three.Name = "three"
+        Me.three.Size = New System.Drawing.Size(65, 47)
+        Me.three.TabIndex = 5
+        Me.three.Text = "3"
+        Me.three.UseVisualStyleBackColor = True
+        '
+        'add
+        '
+        Me.add.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.add.Location = New System.Drawing.Point(210, 307)
+        Me.add.Name = "add"
+        Me.add.Size = New System.Drawing.Size(87, 47)
+        Me.add.TabIndex = 4
+        Me.add.Text = "+"
+        Me.add.UseVisualStyleBackColor = True
+        '
+        'four
+        '
+        Me.four.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.four.Location = New System.Drawing.Point(6, 254)
+        Me.four.Name = "four"
+        Me.four.Size = New System.Drawing.Size(56, 47)
+        Me.four.TabIndex = 11
+        Me.four.Text = "4"
+        Me.four.UseVisualStyleBackColor = True
+        '
+        'five
+        '
+        Me.five.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.five.Location = New System.Drawing.Point(68, 254)
+        Me.five.Name = "five"
+        Me.five.Size = New System.Drawing.Size(65, 47)
+        Me.five.TabIndex = 10
+        Me.five.Text = "5"
+        Me.five.UseVisualStyleBackColor = True
+        '
+        'six
+        '
+        Me.six.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.six.Location = New System.Drawing.Point(139, 254)
+        Me.six.Name = "six"
+        Me.six.Size = New System.Drawing.Size(65, 47)
+        Me.six.TabIndex = 9
+        Me.six.Text = "6"
+        Me.six.UseVisualStyleBackColor = True
+        '
+        'minus
+        '
+        Me.minus.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.minus.Location = New System.Drawing.Point(210, 254)
+        Me.minus.Name = "minus"
+        Me.minus.Size = New System.Drawing.Size(87, 47)
+        Me.minus.TabIndex = 8
+        Me.minus.Text = "-"
+        Me.minus.UseVisualStyleBackColor = True
+        '
+        'seven
+        '
+        Me.seven.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.seven.Location = New System.Drawing.Point(6, 201)
+        Me.seven.Name = "seven"
+        Me.seven.Size = New System.Drawing.Size(56, 47)
+        Me.seven.TabIndex = 15
+        Me.seven.Text = "7"
+        Me.seven.UseVisualStyleBackColor = True
+        '
+        'eight
+        '
+        Me.eight.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.eight.Location = New System.Drawing.Point(68, 201)
+        Me.eight.Name = "eight"
+        Me.eight.Size = New System.Drawing.Size(65, 47)
+        Me.eight.TabIndex = 14
+        Me.eight.Text = "8"
+        Me.eight.UseVisualStyleBackColor = True
+        '
+        'nine
+        '
+        Me.nine.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.nine.Location = New System.Drawing.Point(139, 201)
+        Me.nine.Name = "nine"
+        Me.nine.Size = New System.Drawing.Size(65, 47)
+        Me.nine.TabIndex = 13
+        Me.nine.Text = "9"
+        Me.nine.UseVisualStyleBackColor = True
+        '
+        'multiply
+        '
+        Me.multiply.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.multiply.Location = New System.Drawing.Point(210, 201)
+        Me.multiply.Name = "multiply"
+        Me.multiply.Size = New System.Drawing.Size(87, 47)
+        Me.multiply.TabIndex = 12
+        Me.multiply.Text = "×"
+        Me.multiply.UseVisualStyleBackColor = True
+        '
+        'backspace
+        '
+        Me.backspace.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.backspace.Location = New System.Drawing.Point(6, 148)
+        Me.backspace.Name = "backspace"
+        Me.backspace.Size = New System.Drawing.Size(56, 47)
+        Me.backspace.TabIndex = 19
+        Me.backspace.Text = "⌫"
+        Me.backspace.UseVisualStyleBackColor = True
+        '
+        'ce
+        '
+        Me.ce.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ce.Location = New System.Drawing.Point(68, 148)
+        Me.ce.Name = "ce"
+        Me.ce.Size = New System.Drawing.Size(65, 47)
+        Me.ce.TabIndex = 18
+        Me.ce.Text = "CE"
+        Me.ce.UseVisualStyleBackColor = True
+        '
+        'c
+        '
+        Me.c.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.c.Location = New System.Drawing.Point(139, 148)
+        Me.c.Name = "c"
+        Me.c.Size = New System.Drawing.Size(65, 47)
+        Me.c.TabIndex = 17
+        Me.c.Text = "C"
+        Me.c.UseVisualStyleBackColor = True
+        '
+        'divide
+        '
+        Me.divide.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.divide.Location = New System.Drawing.Point(210, 148)
+        Me.divide.Name = "divide"
+        Me.divide.Size = New System.Drawing.Size(87, 47)
+        Me.divide.TabIndex = 16
+        Me.divide.Text = "÷"
+        Me.divide.UseVisualStyleBackColor = True
+        '
+        'result
+        '
+        Me.result.BackColor = System.Drawing.SystemColors.Control
+        Me.result.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.result.Font = New System.Drawing.Font("Segoe UI Emoji", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.result.Location = New System.Drawing.Point(12, 76)
+        Me.result.Multiline = True
+        Me.result.Name = "result"
+        Me.result.Size = New System.Drawing.Size(283, 66)
+        Me.result.TabIndex = 20
+        Me.result.Text = "0"
+        Me.result.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label
+        '
+        Me.Label.BackColor = System.Drawing.SystemColors.Control
+        Me.Label.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Label.Font = New System.Drawing.Font("Segoe UI Emoji", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label.Location = New System.Drawing.Point(139, 52)
+        Me.Label.Name = "Label"
+        Me.Label.Size = New System.Drawing.Size(151, 18)
+        Me.Label.TabIndex = 21
+        Me.Label.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(299, 414)
+        Me.Controls.Add(Me.Label)
+        Me.Controls.Add(Me.result)
+        Me.Controls.Add(Me.backspace)
+        Me.Controls.Add(Me.ce)
+        Me.Controls.Add(Me.c)
+        Me.Controls.Add(Me.divide)
+        Me.Controls.Add(Me.seven)
+        Me.Controls.Add(Me.eight)
+        Me.Controls.Add(Me.nine)
+        Me.Controls.Add(Me.multiply)
+        Me.Controls.Add(Me.four)
+        Me.Controls.Add(Me.five)
+        Me.Controls.Add(Me.six)
+        Me.Controls.Add(Me.minus)
+        Me.Controls.Add(Me.one)
+        Me.Controls.Add(Me.two)
+        Me.Controls.Add(Me.three)
+        Me.Controls.Add(Me.add)
+        Me.Controls.Add(Me.negative)
+        Me.Controls.Add(Me.zero)
+        Me.Controls.Add(Me.point)
+        Me.Controls.Add(Me.equals)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "Form1"
+        Me.Text = "Calculator"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
 
     Friend WithEvents equals As Button
